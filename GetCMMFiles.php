@@ -1,11 +1,6 @@
 <?php
 //https://api.telegram.org/bot7636322078:AAHU6ofILSwyMguAysdm0dG_gNTy7bzw9iw/setwebhook?url=https://mojalhosein.com/telegram/telegramGeneralbot.php?botName=aicm
-$baseurl = "https://api.telegram.org/bot";
-$servername = "localhost";
-$dbusername = "heyfqtse_balebotuser";
-$dbpassword = ".A8g.s^gQ6s~";
-$dbname = "heyfqtse_balebot";
-$ChatGPTapiKey = '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';  // Store this securely in environment variables or a config file $question
+
 $language_code = 1;
 $update = file_get_contents("php://input");
 $updateArray = json_decode($update, TRUE); // Decode the JSON update
