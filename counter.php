@@ -1,9 +1,6 @@
 <?php
 
-$servername = "localhost";
-$dbusername = "heyfqtse_balebotuser";
-$dbpassword = ".A8g.s^gQ6s~";
-$dbname = "heyfqtse_balebot";
+
 $botName=$_GET['botname'];
 $instructions = getAssistantConversationHistory();
 
